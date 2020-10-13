@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<atlas version="1.0">
+  <header>
+    <name>PNI50 WM Tract Atlas</name>
+    <shortname>PNI50 WM</shortname>
+    <type>Probabilistic</type>
+    <images>
+      <imagefile>/PNI50/PNI50_prob_0.005.nii.gz</imagefile>
+      <summaryimagefile>/PNI50/PNI50_MaxProb.nii.gz</summaryimagefile>
+    </images>
+  </header>
+  <data>
+<label index="0" x="0" y="0" z="0">*.*.*.*.*</label>
+<label index="1" x="79" y="49" z="56">Anterior Thalamic Radiation L</label>
+<label index="2" x="69" y="51" z="57">Anterior Thalamic Radiation R</label>
+<label index="3" x="75" y="42" z="65">Cingulum subsection: Dorsal L</label>
+<label index="4" x="72" y="42" z="66">Cingulum subsection: Dorsal R</label>
+<label index="5" x="75" y="50" z="61">Cingulum subsection: Peri-genual L</label>
+<label index="6" x="73" y="52" z="59">Cingulum subsection: Peri-genual R</label>
+<label index="7" x="82" y="30" z="55">Cingulum subsection: Temporal L</label>
+<label index="8" x="67" y="30" z="56">Cingulum subsection: Temporal R</label>
+<label index="9" x="81" y="44" z="61">Corticospinal Tract L</label>
+<label index="10" x="67" y="45" z="60">Corticospinal Tract R</label>
+<label index="11" x="75" y="26" z="64">Forceps Major</label>
+<label index="12" x="73" y="59" z="61">Forceps Minor</label>
+<label index="13" x="82" y="40" z="53">Fornix L</label>
+<label index="14" x="67" y="41" z="53">Fornix R</label>
+<label index="15" x="83" y="45" z="58">Inferior Fronto-Occipital Fasciculus L</label>
+<label index="16" x="65" y="45" z="58">Inferior Fronto-Occipital Fasciculus R</label>
+<label index="17" x="89" y="30" z="58">Inferior Longitudinal Fasciculus L</label>
+<label index="18" x="59" y="31" z="58">Inferior Longitudinal Fasciculus R</label>
+<label index="19" x="75" y="23" z="49">Middle Cerebellar Peduncle</label>
+<label index="20" x="84" y="31" z="61">Optic Radiation L</label>
+<label index="21" x="66" y="31" z="61">Optic Radiation R</label>
+<label index="22" x="82" y="35" z="63">Posterior Thalamic Radiation L</label>
+<label index="23" x="66" y="34" z="63">Posterior Thalamic Radiation R</label>
+<label index="24" x="82" y="43" z="64">Superior Thalamic Radiation L</label>
+<label index="25" x="66" y="43" z="64">Superior Thalamic Radiation R</label>
+<label index="26" x="87" y="44" z="54">Uncinate Fasciculus L</label>
+<label index="27" x="62" y="48" z="54">Uncinate Fasciculus R</label>
+  </data>
+</atlas>
