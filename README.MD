@@ -1,8 +1,8 @@
-**This is the git repository containing the iles associated with the PIg WM atlas and Conenctivity Blueprint Preprint**
+**This is the git repository containing the files associated with the Pig WM atlas and Connectivity Blueprint Preprint**
 
 Files in this repository provide the code and template files to recreate the figures in the paper. 
 
-The dense connectomes for th cross-species browser will be made available through a release on Xenodo with the raw data files. 
+The dense connectomes for the cross-species browser will be made available through a release on Xenodo with the raw data files. 
 However, users can also recreate the browser by running the associated notebooks.
 
 The contents of each folder are as follows 
@@ -24,7 +24,7 @@ The contents of each folder are as follows
 * data_driven_tracts 
     - Left and Right results of the data-driven tractography. 
     - These components were used to guide the definition of tractography protocols
-    - Raw files refer to minimal processing of the ICAs wheres as gmm file have had a threshold applied via gaussian mixture modeling 
+    - Raw files refer to minimal processing of the ICAs where as gmm file have had a threshold applied via gaussian mixture modeling 
     - see: https://www.sciencedirect.com/science/article/pii/S1053811917304044
 * Protocols
     - Contains the tractography protocols as defined in PNI50 space for use with the [Xtract](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/XTRACT) package. 
@@ -34,7 +34,7 @@ The contents of each folder are as follows
 * Tracts
     - Individual Nifti files of the tracts in the WM atlas
 * Surfaces
-    - Surfaces used in the generation of the conenctivity blueprint. 
+    - Surfaces used in the generation of the connectivity blueprint. 
     - Human surfaces are from the original Mars et al. [blueprint paper](https://github.com/elifesciences-publications/rmars-comparing-connectivity-blueprints)
     - Native pig surfaces to the PNI50 are in the pig_surfaces/Surf_Volume_geometry folder
-    - The pig surfaces called in the notebooks and spec files hace been oriented with a corrected anterior-posterior and inferior-superior labelling. 
+    - The pig surfaces called in the notebooks and spec files have been oriented with a corrected anterior-posterior and inferior-superior labelling.
