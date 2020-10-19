@@ -1,6 +1,8 @@
-**This is the git repository containing the files associated with the Pig WM atlas and Connectivity Blueprint Preprint**
+**This is the git repository contains the files of the [Pig WM atlas and Connectivity Blueprint Preprint](https://doi.org/10.1101/2020.10.13.337436)**
 
 Files in this repository provide the code and template files to recreate the figures in the paper. 
+
+The raw and perprocessd diffision data is available on  [Zenodo](https://zenodo.org/record/4103368#.X43aD0IzZFQ)
 
 The dense connectomes for the cross-species browser will be made available through a release on Xenodo with the raw data files. 
 However, users can also recreate the browser by running the associated notebooks.
@@ -38,3 +40,7 @@ The contents of each folder are as follows
     - Human surfaces are from the original Mars et al. [blueprint paper](https://github.com/elifesciences-publications/rmars-comparing-connectivity-blueprints)
     - Native pig surfaces to the PNI50 are in the pig_surfaces/Surf_Volume_geometry folder
     - The pig surfaces called in the notebooks and spec files have been oriented with a corrected anterior-posterior and inferior-superior labelling.
+* Cross_species_browser
+    - The cross species browser can be accessed through the cross species spec files
+    - The actual files dense connectome images are too big for git ans are hosted on [Zenodo](https://zenodo.org/record/4103368#.X43aD0IzZFQ)
+        - Simply place the L_hum_pig_double_click.dconn.nii and R_hum_pig_double_click.dconn.nii files in this folder once downloaded and open the spec file. 
