@@ -31,7 +31,7 @@ The contents of each folder are as follows
 * Protocols
     - Contains the tractography protocols as defined in PNI50 space for use with the [Xtract](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/XTRACT) package. 
 * Tract Projections 
-    - Tractograms showing each tracts termiantino points on the cortical surface. 
+    - Tractograms showing each tracts termination points on the cortical surface. 
     - see spec files
 * Tracts
     - Individual Nifti files of the tracts in the WM atlas
