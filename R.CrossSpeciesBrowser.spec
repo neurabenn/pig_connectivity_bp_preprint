@@ -7,9 +7,4 @@
              Selected="true">
       Cross_species_browser/R_hum_pigjoint.surf.gii
    </DataFile>
-   <DataFile Structure="All"
-             DataFileType="CONNECTIVITY_DENSE"
-             Selected="true">
-      Cross_species_browser/R_hum_pig_double_click.dconn.nii
-   </DataFile>
 </CaretSpecFile>

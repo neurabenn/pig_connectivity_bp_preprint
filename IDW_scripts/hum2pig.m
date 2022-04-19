@@ -2,8 +2,14 @@
 
 
 function pmap  = hum2pig(hum_BP,pig_BP,human,pig,varargin)
-%%%% inouts are a human BP, a pig BP of equal size, a pig.surf.gii and the
+%%%% inputs are a human BP, a pig BP of equal size, a pig.surf.gii and the
 %%%% human func.gii 
+
+%%%% The pig.surf.gii corresponds to the PNI50 average midthickness surface where the ROI will be resampled to
+%%%% The human.func.gii refers to a ROI or spatial map of interest to be translated onto the pig surface
+
+
+
 [~,BP_out,~]=fileparts(hum_BP);
 pig_BP=load(pig_BP);
 pig_BP=pig_BP.bp;
@@ -22,7 +28,7 @@ gamma = -4;
 PH=calc_KL(pig_BP,hum_BP);
 % interpolation - careful with division by zero etc.
 n     = size(PH,2);
-D     = PH .* repmat(~~hum_map',n,1);
+D     = PH .* repmat(~~hum_map,n,1);
 D     = D.^gamma;  D(isnan(D))=0; D(isinf(D))=0;
 W     = D ./ repmat(sum(D,2)+~sum(D,2),1,n);
 %%%% do interpolatoin as matrix multiplication. Save gifti out

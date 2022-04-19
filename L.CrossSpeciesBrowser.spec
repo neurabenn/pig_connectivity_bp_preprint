@@ -7,7 +7,7 @@
              Selected="true">
       Cross_species_browser/L_hum_pigjoint.surf.gii
    </DataFile>
-   <DataFile Structure="All"
+   <DataFile Structure="CortexLeft"
              DataFileType="CONNECTIVITY_DENSE"
              Selected="true">
       Cross_species_browser/L_hum_pig_double_click.dconn.nii
